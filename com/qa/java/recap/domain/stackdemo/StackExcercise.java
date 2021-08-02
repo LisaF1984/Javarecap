@@ -15,5 +15,12 @@ public class StackExcercise {
 	
 	public static void tertiary() {
 		System.out.println("tertiary method called");
+		completedNumber(3);
 	}
+	
+	public static int completedNumber(int compNum) {
+		System.out.println("completed" + compNum);
+		return compNum;
+	}
+	
 }
